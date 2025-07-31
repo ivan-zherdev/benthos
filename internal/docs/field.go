@@ -177,6 +177,7 @@ func (f FieldSpec) Secret() FieldSpec {
 }`, bloblREEnvVar)
 	fmt.Println()
 	fmt.Println(f.Scrubber)
+	fmt.Printf("\n%#v\n\n", f)
 	fmt.Println()
 	return f
 }
