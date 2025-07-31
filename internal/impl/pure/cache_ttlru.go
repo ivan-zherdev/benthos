@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/golang-lru/v2/expirable"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

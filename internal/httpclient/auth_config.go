@@ -15,11 +15,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang-jwt/jwt/v4"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
 )
 
 // AuthConfig contains configuration params for various HTTP auth strategies.

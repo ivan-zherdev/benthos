@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/scanner"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 )
 
 // ScannerSourceDetails contains exclusively optional information which could be

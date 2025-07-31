@@ -12,11 +12,11 @@ import (
 	"cloud.google.com/go/storage"
 	"google.golang.org/api/iterator"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/codec"
+	"github.com/ivan-zherdev/benthos/v4/internal/codec/interop"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/scanner"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

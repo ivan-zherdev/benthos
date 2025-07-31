@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/buffer"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
 )
 
 // BatchBuffer is an interface implemented by Buffers able to read and write

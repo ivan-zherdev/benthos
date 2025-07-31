@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/sftp"
 
-	"github.com/benthosdev/benthos/v4/internal/codec/interop"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/codec/interop"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/scanner"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

@@ -4,10 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/golang-jwt/jwt/v4"
-
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 )
 
 type secretDecoderFunc func(secret string) (any, error)

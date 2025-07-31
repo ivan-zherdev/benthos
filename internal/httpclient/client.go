@@ -13,10 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/old/util/throttle"
-	"github.com/benthosdev/benthos/v4/internal/tracing/v2"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/old/util/throttle"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 // Client is a component able to send and receive Benthos messages over HTTP.

@@ -1,7 +1,7 @@
 package bloblang
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bloblang/plugins"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/plugins"
 )
 
 func init() {

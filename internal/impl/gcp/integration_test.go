@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/api/iterator"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/pure"
 )
 
 func createGCPCloudStorageBucket(var1, id string) error {

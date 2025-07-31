@@ -11,11 +11,11 @@ import (
 
 	"github.com/gocql/gocql"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/value"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

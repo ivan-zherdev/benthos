@@ -15,9 +15,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/gofrs/uuid"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/aws/config"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

@@ -14,9 +14,9 @@ import (
 
 	"github.com/olivere/elastic/v7"
 
-	baws "github.com/benthosdev/benthos/v4/internal/impl/aws"
-	"github.com/benthosdev/benthos/v4/internal/impl/elasticsearch"
-	"github.com/benthosdev/benthos/v4/public/service"
+	baws "github.com/ivan-zherdev/benthos/v4/internal/impl/aws"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/elasticsearch"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"

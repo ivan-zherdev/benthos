@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	ioutput "github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	ioutput "github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
 )
 
 var _ ioutput.Sync = &outputWrapper{}

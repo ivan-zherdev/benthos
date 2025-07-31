@@ -9,11 +9,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nkeys"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/nats/auth"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func authConfToOptions(auth auth.Config, fs *service.FS) []nats.Option {

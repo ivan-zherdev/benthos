@@ -6,13 +6,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/metrics"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/manager/mock"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/prometheus"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/prometheus"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/pure"
 )
 
 func TestMappingConfigAny(t *testing.T) {

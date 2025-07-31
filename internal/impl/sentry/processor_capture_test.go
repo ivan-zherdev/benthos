@@ -5,11 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/getsentry/sentry-go"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func TestCaptureProcessor(t *testing.T) {

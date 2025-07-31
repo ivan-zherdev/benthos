@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

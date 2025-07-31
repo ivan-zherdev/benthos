@@ -10,15 +10,15 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/config"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input/config"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/interop"
+	"github.com/ivan-zherdev/benthos/v4/internal/httpclient"
+	"github.com/ivan-zherdev/benthos/v4/internal/log"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 type wsOpenMsgType string

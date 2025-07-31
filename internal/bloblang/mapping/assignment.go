@@ -8,8 +8,8 @@ import (
 
 	"github.com/Jeffail/gabs/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/value"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/internal/value"
 )
 
 //------------------------------------------------------------------------------

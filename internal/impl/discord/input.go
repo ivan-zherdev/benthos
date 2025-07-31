@@ -9,9 +9,9 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/benthosdev/benthos/v4/internal/checkpoint"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/checkpoint"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func inputConfig() *service.ConfigSpec {

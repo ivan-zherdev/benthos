@@ -8,13 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func TestIntegrationAzureServiceBus(t *testing.T) {

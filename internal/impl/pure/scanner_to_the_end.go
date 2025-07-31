@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func toTheEndScannerSpec() *service.ConfigSpec {

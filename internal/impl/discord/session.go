@@ -6,7 +6,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 
-	"github.com/benthosdev/benthos/v4/internal/cli"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli"
 )
 
 type refCountedSession struct {

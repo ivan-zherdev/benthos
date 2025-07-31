@@ -6,8 +6,8 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/azure/cosmosdb"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/azure/cosmosdb"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

@@ -5,17 +5,17 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/mapping"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/cache"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/metrics"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/processor"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/ratelimit"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/manager"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 )
 
 // InitTemplates parses and registers native templates, as well as templates

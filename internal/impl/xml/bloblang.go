@@ -6,8 +6,8 @@ import (
 
 	"github.com/clbanning/mxj/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 )
 
 func init() {

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 var driverField = service.NewStringEnumField("driver", "mysql", "postgres", "clickhouse", "mssql", "sqlite", "oracle", "snowflake", "trino", "gocosmos").

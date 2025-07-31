@@ -9,8 +9,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/pure"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

@@ -9,10 +9,8 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/parquet-go/parquet-go"
-
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func parquetInputConfig() *service.ConfigSpec {

@@ -3,9 +3,7 @@ package pusher
 import (
 	"context"
 
-	"github.com/pusher/pusher-http-go"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func pusherOutputConfig() *service.ConfigSpec {

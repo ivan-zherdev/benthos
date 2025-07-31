@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/value"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/value"
 )
 
 //------------------------------------------------------------------------------

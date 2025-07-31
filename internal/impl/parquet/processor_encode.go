@@ -5,10 +5,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/parquet-go/parquet-go"
 	"github.com/parquet-go/parquet-go/compress"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func parquetEncodeProcessorConfig() *service.ConfigSpec {

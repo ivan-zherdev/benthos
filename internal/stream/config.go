@@ -1,11 +1,11 @@
 package stream
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/pipeline"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/buffer"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/pipeline"
 )
 
 const (

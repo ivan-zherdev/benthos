@@ -14,8 +14,8 @@ import (
 	gonanoid "github.com/matoous/go-nanoid/v2"
 	"github.com/segmentio/ksuid"
 
-	"github.com/benthosdev/benthos/v4/internal/tracing"
-	"github.com/benthosdev/benthos/v4/internal/value"
+	"github.com/ivan-zherdev/benthos/v4/internal/tracing"
+	"github.com/ivan-zherdev/benthos/v4/internal/value"
 )
 
 type fieldFunction struct {

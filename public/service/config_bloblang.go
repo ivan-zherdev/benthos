@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 )
 
 // NewBloblangField defines a new config field that describes a Bloblang mapping

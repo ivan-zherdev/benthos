@@ -9,8 +9,8 @@ import (
 	"cloud.google.com/go/pubsub"
 	"google.golang.org/api/option"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

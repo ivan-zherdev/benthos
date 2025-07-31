@@ -5,9 +5,9 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 )
 
 const (

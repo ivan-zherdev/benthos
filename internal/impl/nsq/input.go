@@ -9,9 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/nsqio/go-nsq"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

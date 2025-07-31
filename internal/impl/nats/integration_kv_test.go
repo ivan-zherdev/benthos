@@ -7,13 +7,12 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/nats-io/nats.go"
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func TestIntegrationNatsKV(t *testing.T) {

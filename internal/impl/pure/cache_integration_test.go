@@ -3,7 +3,7 @@ package pure
 import (
 	"testing"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
 )
 
 func TestIntegrationMultilevelCache(t *testing.T) {

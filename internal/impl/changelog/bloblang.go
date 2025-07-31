@@ -2,10 +2,9 @@ package changelog
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/r3labs/diff/v3"
 	"go.uber.org/multierr"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 )
 
 func init() {

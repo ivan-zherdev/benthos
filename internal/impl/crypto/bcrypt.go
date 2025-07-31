@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 )
 
 func registerCompareBCryptMethod() error {

@@ -14,14 +14,14 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/api"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/ivan-zherdev/benthos/v4/internal/api"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/metrics"
+	"github.com/ivan-zherdev/benthos/v4/internal/config"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/log"
+	"github.com/ivan-zherdev/benthos/v4/internal/manager"
+	"github.com/ivan-zherdev/benthos/v4/internal/manager/mock"
 )
 
 // CreateManager from a CLI context and a stream config.

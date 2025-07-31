@@ -3,8 +3,8 @@ package lambda_test
 import (
 	"testing"
 
-	"github.com/benthosdev/benthos/v4/internal/serverless/lambda"
-	_ "github.com/benthosdev/benthos/v4/public/components/all"
+	"github.com/ivan-zherdev/benthos/v4/internal/serverless/lambda"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/all"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

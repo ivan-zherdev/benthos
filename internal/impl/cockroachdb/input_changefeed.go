@@ -9,12 +9,11 @@ import (
 	"sync"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/benthosdev/benthos/v4/internal/checkpoint"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/checkpoint"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 
 	_ "github.com/lib/pq"
 )

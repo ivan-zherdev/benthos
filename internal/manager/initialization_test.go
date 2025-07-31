@@ -9,14 +9,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/buffer"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/cache"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/processor"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/ratelimit"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
 )
 
 func TestInitialization(t *testing.T) {

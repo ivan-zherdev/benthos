@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/cache"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/metrics"
 )
 
 // Errors returned by cache types.

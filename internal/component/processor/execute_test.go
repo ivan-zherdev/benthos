@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 )
 
 type passthrough struct {

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
 )
 
 // NewInputField defines a new input field, it is then possible to extract an

@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
 )
 
 func createTable(ctx context.Context, t testing.TB, dynamoPort, id string) error {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"text/template"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/httpserver"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/httpserver"
 
 	_ "embed"
 )

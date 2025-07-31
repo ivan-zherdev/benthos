@@ -3,9 +3,7 @@ package httpclient
 import (
 	"testing"
 
-	"github.com/golang-jwt/jwt/v4"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

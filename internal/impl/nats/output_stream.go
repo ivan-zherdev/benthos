@@ -10,13 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/stan.go"
-
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/output/span"
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output/span"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/nats/auth"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

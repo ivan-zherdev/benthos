@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 )
 
 type memoryBuffer struct {

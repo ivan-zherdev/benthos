@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/metrics"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
 )
 
 type metricsCache struct {

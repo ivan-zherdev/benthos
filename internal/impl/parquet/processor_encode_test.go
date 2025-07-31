@@ -7,11 +7,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func TestParquetEncodePanic(t *testing.T) {

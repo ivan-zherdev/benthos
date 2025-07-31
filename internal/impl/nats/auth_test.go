@@ -4,12 +4,11 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nkeys"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/nats/auth"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

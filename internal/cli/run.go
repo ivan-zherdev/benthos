@@ -9,18 +9,18 @@ import (
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/cli/blobl"
-	"github.com/benthosdev/benthos/v4/internal/cli/common"
-	"github.com/benthosdev/benthos/v4/internal/cli/studio"
-	clitemplate "github.com/benthosdev/benthos/v4/internal/cli/template"
-	"github.com/benthosdev/benthos/v4/internal/cli/test"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/template"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/parser"
+	"github.com/ivan-zherdev/benthos/v4/internal/bundle"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli/blobl"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli/common"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli/studio"
+	clitemplate "github.com/ivan-zherdev/benthos/v4/internal/cli/template"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli/test"
+	"github.com/ivan-zherdev/benthos/v4/internal/config"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/internal/template"
 )
 
 // Build stamps.
@@ -35,7 +35,7 @@ func init() {
 	}
 	if info, ok := debug.ReadBuildInfo(); ok {
 		for _, mod := range info.Deps {
-			if mod.Path == "github.com/benthosdev/benthos/v4" {
+			if mod.Path == "github.com/ivan-zherdev/benthos/v4" {
 				if mod.Version != "(devel)" {
 					Version = mod.Version
 				}

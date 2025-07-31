@@ -3,9 +3,9 @@ package span
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/tracing"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/tracing"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

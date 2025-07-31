@@ -11,10 +11,10 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sqs/types"
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/aws/config"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

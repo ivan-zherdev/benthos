@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 
-	"github.com/benthosdev/benthos/v4/internal/cli"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli"
 )
 
 func TestGetAgentOps(t *testing.T) {

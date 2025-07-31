@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"net/http"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 // RequestSigner is a closure configured to enrich requests with various

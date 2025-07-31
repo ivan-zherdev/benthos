@@ -5,10 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/couchbase/gocb/v2"
-
-	"github.com/benthosdev/benthos/v4/internal/impl/couchbase/client"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/couchbase/client"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 // CacheConfig export couchbase Cache specification.

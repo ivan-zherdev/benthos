@@ -12,8 +12,8 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/protobuf"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/protobuf"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func (s *schemaRegistryDecoder) getProtobufDecoder(ctx context.Context, info SchemaInfo) (schemaDecoder, error) {

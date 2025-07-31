@@ -13,8 +13,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/cli"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/cli"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

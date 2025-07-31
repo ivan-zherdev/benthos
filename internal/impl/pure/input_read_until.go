@@ -9,13 +9,13 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/mapping"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/interop"
+	"github.com/ivan-zherdev/benthos/v4/internal/log"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/shutdown"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

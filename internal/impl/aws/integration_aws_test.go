@@ -18,9 +18,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/ivan-zherdev/benthos/v4/internal/impl/pure"
 )
 
 func createBucketQueue(ctx context.Context, s3Port, sqsPort, id string) error {

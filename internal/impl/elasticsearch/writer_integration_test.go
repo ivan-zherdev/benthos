@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/elasticsearch"
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/elasticsearch"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func outputFromConf(t testing.TB, confStr string, args ...any) *elasticsearch.Output {

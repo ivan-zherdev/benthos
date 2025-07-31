@@ -3,9 +3,7 @@ package amqp1
 import (
 	"fmt"
 
-	"github.com/Azure/go-amqp"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

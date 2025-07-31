@@ -5,7 +5,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"
 )
 
 type functionCategory struct {

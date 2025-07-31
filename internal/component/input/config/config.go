@@ -8,8 +8,8 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/input"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 // Connection fields

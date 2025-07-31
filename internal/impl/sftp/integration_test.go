@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
 
 	// Bring in memory cache.
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/pure"
 )
 
 var (

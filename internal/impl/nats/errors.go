@@ -1,9 +1,7 @@
 package nats
 
 import (
-	"github.com/nats-io/nats.go"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func errorHandlerOption(logger *service.Logger) nats.Option {

@@ -8,12 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
 	"go.nanomsg.org/mangos/v3/protocol/pull"
 	"go.nanomsg.org/mangos/v3/protocol/sub"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 
 	// Import all transport types.
 	_ "go.nanomsg.org/mangos/v3/transport/all"

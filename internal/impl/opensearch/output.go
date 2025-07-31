@@ -14,11 +14,11 @@ import (
 	"github.com/opensearch-project/opensearch-go/v3/opensearchapi"
 	"github.com/opensearch-project/opensearch-go/v3/opensearchutil"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/httpclient"
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/httpclient"
+	"github.com/ivan-zherdev/benthos/v4/internal/impl/aws/config"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

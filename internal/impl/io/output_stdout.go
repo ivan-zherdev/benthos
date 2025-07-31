@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/codec"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func init() {

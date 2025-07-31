@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/testutil"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	bmock "github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/testutil"
+	"github.com/ivan-zherdev/benthos/v4/internal/manager"
+	bmock "github.com/ivan-zherdev/benthos/v4/internal/manager/mock"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

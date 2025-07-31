@@ -13,10 +13,10 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"golang.org/x/sync/syncmap"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/output/span"
-	"github.com/benthosdev/benthos/v4/internal/value"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output/span"
+	"github.com/ivan-zherdev/benthos/v4/internal/value"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

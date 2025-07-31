@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/ivan-zherdev/benthos/v4/internal/message"
 
 	"github.com/stretchr/testify/assert"
 )

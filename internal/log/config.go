@@ -1,6 +1,6 @@
 package log
 
-import "github.com/benthosdev/benthos/v4/internal/docs"
+import "github.com/ivan-zherdev/benthos/v4/internal/docs"
 
 const (
 	fieldLogLevel         = "level"

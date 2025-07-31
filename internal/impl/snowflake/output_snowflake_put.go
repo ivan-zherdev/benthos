@@ -20,14 +20,13 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/golang-jwt/jwt/v4"
 	"github.com/snowflakedb/gosnowflake"
 	"github.com/youmark/pkcs8"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/output"
+	"github.com/ivan-zherdev/benthos/v4/internal/filepath/ifs"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 const (

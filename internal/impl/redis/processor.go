@@ -8,10 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/redis/go-redis/v9"
-
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func redisProcConfig() *service.ConfigSpec {

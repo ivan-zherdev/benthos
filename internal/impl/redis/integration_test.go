@@ -8,12 +8,11 @@ import (
 	"time"
 
 	"github.com/ory/dockertest/v3"
-	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	"github.com/ivan-zherdev/benthos/v4/internal/integration"
+	_ "github.com/ivan-zherdev/benthos/v4/public/components/pure"
 )
 
 func TestIntegrationRedis(t *testing.T) {

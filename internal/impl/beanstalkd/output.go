@@ -5,9 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/beanstalkd/go-beanstalk"
-
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/ivan-zherdev/benthos/v4/public/service"
 )
 
 func beanstalkdOutputConfig() *service.ConfigSpec {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/scanner"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/ivan-zherdev/benthos/v4/internal/component"
+	"github.com/ivan-zherdev/benthos/v4/internal/component/scanner"
+	"github.com/ivan-zherdev/benthos/v4/internal/docs"
 )
 
 // AllScanners is a set containing every single scanner that has been imported.

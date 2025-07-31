@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/ivan-zherdev/benthos/v4/public/bloblang"
 
 	"crypto/rsa"
 )
