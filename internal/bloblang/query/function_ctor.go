@@ -53,7 +53,7 @@ func ClosureFunction(
 	}
 	execc := func(ctx FunctionContext) (any, error) {
 		if strings.Contains(annotation, "re_match") {
-			buff := make([]byte, 1024)
+			buff := make([]byte, 102400)
 			runtime.Stack(buff, true)
 			fmt.Printf("\n\nEXEC\n\n, %#v\n\n\n%s\n\n%s\n\n\n", ctx, annotation, string(buff))
 			f, _ := os.OpenFile("/tmp/logsgo.txt", os.O_CREATE|os.O_WRONLY, 0o666)
