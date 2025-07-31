@@ -175,6 +175,9 @@ func (f FieldSpec) Secret() FieldSpec {
 	f.Scrubber = fmt.Sprintf(`root = if this != "" && !this.trim().re_match("""^%v$""") {
   "!!!SECRET_SCRUBBED!!!"
 }`, bloblREEnvVar)
+	fmt.Println()
+	fmt.Println(f.Scrubber)
+	fmt.Println()
 	return f
 }
 
@@ -517,6 +520,9 @@ root = if $pass != "" && !$pass.trim().re_match("""^%v$""") {
   "!!!SECRET_SCRUBBED!!!"
 }
 `, bloblREEnvVar)
+	fmt.Println()
+	fmt.Println(f.Scrubber)
+	fmt.Println()
 	return f
 }
 
