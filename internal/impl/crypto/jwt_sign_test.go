@@ -2,6 +2,7 @@ package crypto
 
 import (
 	"fmt"
+	"github.com/golang-jwt/jwt/v5"
 	"testing"
 
 	"github.com/stretchr/testify/require"

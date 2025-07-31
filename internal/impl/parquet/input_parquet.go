@@ -5,6 +5,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/parquet-go/parquet-go"
 	"io"
 	"io/fs"
 	"sync"

@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/redis/go-redis/v9"
 	"sync"
 
 	"github.com/ivan-zherdev/benthos/v4/internal/component/output"

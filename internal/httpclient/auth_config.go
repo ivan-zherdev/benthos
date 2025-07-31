@@ -7,6 +7,7 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"fmt"
+	"github.com/golang-jwt/jwt/v5"
 	"io/fs"
 	"math/rand"
 	"net/http"

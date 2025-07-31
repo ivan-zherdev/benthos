@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/parquet-go/parquet-go"
 
 	"github.com/parquet-go/parquet-go/compress"
 

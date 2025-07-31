@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"github.com/parquet-go/parquet-go"
 	"testing"
 
 	"github.com/Jeffail/gabs/v2"

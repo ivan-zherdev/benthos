@@ -3,6 +3,7 @@ package crypto
 import (
 	"errors"
 	"fmt"
+	"github.com/golang-jwt/jwt/v5"
 	"strings"
 
 	"github.com/ivan-zherdev/benthos/v4/internal/bloblang/query"

@@ -1,6 +1,7 @@
 package httpclient
 
 import (
+	"github.com/golang-jwt/jwt/v5"
 	"testing"
 
 	"github.com/ivan-zherdev/benthos/v4/public/service"

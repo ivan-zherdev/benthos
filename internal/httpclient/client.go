@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/ivan-zherdev/benthos/v4/internal/tracing/v2"
 	"io"
 	"mime"
 	"mime/multipart"
