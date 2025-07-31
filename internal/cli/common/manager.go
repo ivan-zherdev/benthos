@@ -81,9 +81,13 @@ func CreateManager(
 			sanitSpec = config.SpecWithoutStream()
 		}
 		err = sanitSpec.SanitiseYAML(&sanitNode, sanitConf)
+		if err != nil {
+			err = fmt.Errorf("wrapper, %#v, %w", sanitConf, err)
+		}
+
 	}
 	if err != nil {
-		err = fmt.Errorf("failed to generate sanitised config: %w", err)
+		err = fmt.Errorf("%#v,\n %#v, failed to generate sanitised config: %w", conf, sanitNode, err)
 		return
 	}
 
