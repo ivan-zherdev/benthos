@@ -2,6 +2,7 @@ package query
 
 import (
 	"fmt"
+	"reflect"
 
 	"github.com/ivan-zherdev/benthos/v4/internal/value"
 )
@@ -89,7 +90,10 @@ func NewIfFunction(queryFn, ifFn Function, elseIfs []ElseIf, elseFn Function) Fu
 	return ClosureFunction("if expression", func(ctx FunctionContext) (any, error) {
 		queryVal, err := queryFn.Exec(ctx)
 		if err != nil {
-			return nil, fmt.Errorf("failed to check if condition: %w", err)
+			fmt.Println("Reflect Type:", reflect.TypeOf(queryFn))
+			fmt.Println("Reflect Kind:", reflect.TypeOf(queryFn).Kind())
+			fmt.Println("Value:", reflect.ValueOf(queryFn))
+			return nil, fmt.Errorf("failed to check if condition: %w, %#v, %s", err, queryFn, queryFn.Annotation())
 		}
 
 		queryRes, isBool := queryVal.(bool)
