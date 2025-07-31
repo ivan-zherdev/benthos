@@ -172,7 +172,7 @@ const bloblREEnvVar = "\\${[0-9A-Za-z_.]+(:((\\${[^}]+})|[^}])*)?}"
 // access tokens.
 func (f FieldSpec) Secret() FieldSpec {
 	f.IsSecret = true
-	f.Scrubber = fmt.Sprintf(`root = if this != "" && !this.trim().re_match("""^%v$""") {
+	f.Scrubber = fmt.Sprintf(`root = if this != "" && this != null && !this.trim().re_match("""^%v$""") {
   "!!!SECRET_SCRUBBED!!!"
 }`, bloblREEnvVar)
 	fmt.Println()
@@ -517,7 +517,7 @@ func FieldURL(name, description string, examples ...any) FieldSpec {
 	`)*/
 	f.Scrubber = fmt.Sprintf(`
 let pass = this.parse_url().user.password.or("")
-root = if $pass != "" && !$pass.trim().re_match("""^%v$""") {
+root = if $pass != "" && $pass != null && !$pass.trim().re_match("""^%v$""") {
   "!!!SECRET_SCRUBBED!!!"
 }
 `, bloblREEnvVar)
