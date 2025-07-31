@@ -1,5 +1,10 @@
 package query
 
+import (
+	"fmt"
+	"runtime"
+)
+
 // Function takes a set of contextual arguments and returns the result of the
 // query.
 type Function interface {
@@ -42,6 +47,12 @@ func ClosureFunction(
 ) Function {
 	if queryTargets == nil {
 		queryTargets = func(ctx TargetsContext) (TargetsContext, []TargetPath) { return ctx, nil }
+	}
+	exec = func(ctx FunctionContext) (any, error) {
+		buff := make([]byte, 1024)
+		runtime.Stack(buff, true)
+		fmt.Printf("\n\nEXEC\n\n, %#v\n\n\n%s\n\n%s\n\n\n", ctx, annotation, string(buff))
+		return exec(ctx)
 	}
 	return closureFunction{annotation: annotation, exec: exec, queryTargets: queryTargets}
 }
