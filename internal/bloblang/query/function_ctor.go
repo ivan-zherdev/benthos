@@ -49,7 +49,7 @@ func ClosureFunction(
 	if queryTargets == nil {
 		queryTargets = func(ctx TargetsContext) (TargetsContext, []TargetPath) { return ctx, nil }
 	}
-	exec = func(ctx FunctionContext) (any, error) {
+	execc := func(ctx FunctionContext) (any, error) {
 		if strings.Contains(annotation, "re_match") {
 			buff := make([]byte, 1024)
 			runtime.Stack(buff, true)
@@ -57,7 +57,7 @@ func ClosureFunction(
 		}
 		return exec(ctx)
 	}
-	return closureFunction{annotation: annotation, exec: exec, queryTargets: queryTargets}
+	return closureFunction{annotation: annotation, exec: execc, queryTargets: queryTargets}
 }
 
 type closureFunction struct {
