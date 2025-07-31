@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 	"strings"
+	"time"
 )
 
 // Function takes a set of contextual arguments and returns the result of the
@@ -54,6 +55,7 @@ func ClosureFunction(
 			buff := make([]byte, 1024)
 			runtime.Stack(buff, true)
 			fmt.Printf("\n\nEXEC\n\n, %#v\n\n\n%s\n\n%s\n\n\n", ctx, annotation, string(buff))
+			time.Sleep(300 * time.Millisecond)
 		}
 		return exec(ctx)
 	}
